@@ -1,0 +1,7 @@
+
+/* Använder navbar-brand till min header i navbaren, här har jag ändrat så font-size är störe */
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
