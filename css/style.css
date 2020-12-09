@@ -1,8 +1,6 @@
-
-.navbar-light{
-    background-color: 
+.bg-light{
+    background-color: #9400D3 !important;
 }
-
 
 /* Använder navbar-brand till min header i navbaren, här har jag ändrat så font-size är störe */
 
@@ -14,3 +12,11 @@
     padding: 1.5rem 1rem;
 }
 
+
+#color_white{
+    color:white;
+}
+
+.container-fluid{
+    padding-top:10px;
+}
