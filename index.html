@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
+        <!--Länkar till bootstrap css samt min egna style css.-->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bootstrap</title>
-
+        <!--Länkar till javascript fil-->
         <script src="script.js"></script>
     </head>
 
@@ -15,18 +17,24 @@
 
         <div>
 
+            <!--Här är min navbar, där jag har min header. Har ändrat mycket i min egna css.-->
             <div>
                 <nav class="navbar sticky-top navbar-light bg-light">
-                    <span class="navbar-brand mb-0 h1" href="#" id="color_white"><h1>Bootstrap uppgift</h1></span>
+                    <span class="navbar-brand mb-0 h1" href="#" id="header_color"><h1>Bootstrap uppgift</h1></span>
                 </nav>
             </div>
 
+            <!--Detta är knappen som skrollar upp till toppen av sidan, har tagit en klass från bootstrap samt gjort så den utför 
+            funktionen "topFunction()". Den funktionen finns i javascript filen. -->
             <div class="knapp">
                 <button onclick="topFunction()" type="button" class="btn btn-dark" id="myBtn">Till toppen av sidan</button>
             </div>
 
-
-            <ul class="lista">
+            <!--Skapar en unsorted lista -->
+            <ul>
+                <!--Skapar en container i listan som använder bootstrap klassen "container-fluid", i denna containern skapar jag en till 
+                    container med klassen jumbotron. I denna containern har jag h2 med titeln på ämnet och en paragraf med texten i. 
+                    Jag har gjort såhär för varje ämne i listan, därför har jag inte kommenterat på de andra.  -->
                 <li>   
                     <div class="container-fluid">  
                         <div class="jumbotron">
@@ -220,6 +228,7 @@
 
             </ul>
 
+            <!--En simpel container med en footer i, footern har en till container i sig med text. -->
             <div>
                 <footer class="page-footer font-small">
                     <div class="footer-copyright text-center py-3">Tack för att du har läst</div>
