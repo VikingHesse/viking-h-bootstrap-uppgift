@@ -1,30 +1,31 @@
+/* Sätter scroll-behavior till smooth för hela sidan, detta är så att det scrollas upp när man 
+klickar på knappen som skrollar upp till toppen av sidan istället för att hacka upp direkt. */
 html {
     scroll-behavior: smooth;
 }
 
+/* Ändrar bakgrundsfärgen på navbaren till lila, måste änvända !important för att det ska prioriteras över det vanliga. */
 .bg-light{
     background-color: #9400D3 !important;
 }
 
-/* Använder navbar-brand till min header i navbaren, här har jag ändrat så font-size är störe */
-
-.navbar-brand {
-    font-size: 1.5rem;
-}
-
+/* Ändrar paddingen på jumbotron klassen.*/
 .jumbotron{
     padding: 1.5rem 1rem;
 }
 
-
-#color_white{
+/* Skapar ett ID för att använda på headern, ändrar färgen till vit. */
+#header_color{
     color:white;
 }
 
+/* Ändrar paddingen på container fluid klassen i bootstrap.  */
 .container-fluid{
     padding-top:10px;
 }
 
+/* Positionerar knappen på rätt ställe, ser till så den alltid följer med när man scrollar (position: fixed). Ger den också
+z-index +99, detta ser till så den alltid hamnar överst och inte blockeras av något annat element. */
 .knapp{
     left:43.5%;
     bottom: 7%;
